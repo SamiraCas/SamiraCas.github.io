@@ -28,6 +28,7 @@
   margin-bottom: 20px; 
   border-radius: 4px;
   position: relative;
+
 }
 .empresa::before{
   content: '';
@@ -41,7 +42,7 @@
 }
 .empresa-ano{
   position: absolute;
-  top:20px;
+  top: 22px;
   left: -100px;
   text-align: right;
   width: 80px;
@@ -70,6 +71,34 @@
   font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 4px;
-  background: #ffff ;
+  background: #ffff;
   padding: 5px 10px;
+}
+
+@media (max-width:800px){
+  .experiencia{
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experiencia .subtitulo{
+    color: #141414;
+  }
+  .experiencia-texto{
+    font-size: 1.25rem;
+  }
+  .empresa-ano{
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+  .empresa-ano::before{
+    content: "Ano: ";
+  }
+}
+
+@media (max-width:400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
 }
