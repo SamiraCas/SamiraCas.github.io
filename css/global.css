@@ -1,7 +1,12 @@
+*{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family:'Fira Sans', sans-serif;
   margin: 0px;
   color: #141414;
+  
 }
 
 h1, 
