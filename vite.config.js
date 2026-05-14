@@ -8,6 +8,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  // Como seu repositório é SamiraCas.github.io, a base costuma ser a raiz '/'
+  // Como seu repositório é SamiraCas.github.io, a base é a raiz '/'
   base: '/', 
 })
