@@ -4,6 +4,7 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Footer from './components/Footer';
 import './styles/style.min.css';
+import ExperienceCarousel from './components/FeaturedProjects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Experience />
+      <ExperienceCarousel />
       <Education />
       <Footer />
     </div>
